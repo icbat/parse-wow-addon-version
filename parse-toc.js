@@ -10,7 +10,7 @@ function parseValueFromLine(line) {
 const tocFilePath = core.getInput('tocfile', {required: true})
 core.debug(`Reading file ${tocFilePath}`)
 
-const lines = fs.readFileSync(tocFilePsath)
+const lines = fs.readFileSync(tocFilePath)
     .toString()
     .split('\n')
 
