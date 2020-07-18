@@ -1,0 +1,13 @@
+## Interface: 80000
+## Title: Broker: Call to Arms
+## Notes: Call to Arms bonus satchel scanning
+## Author: @icbat
+## Version: 2
+
+## Dependencies
+libs\LibStub\LibStub.lua
+libs\CallBackHandler-1.0\CallbackHandler-1.0.lua
+libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+
+## This addon
+Broker_CTA.lua
