@@ -1,0 +1,15 @@
+name: 'Parse WoW Addon Verions'
+description: "Parses and exposes your addon's version and the supported game version for use in other actions"
+author: 'icbat'
+inputs:
+  tocfile:
+    description: 'The path to your TOC file'
+    required: true
+outputs:
+  addon_version:
+    description: 'The version of your addon from the TOC file' 
+  supported_version:
+    description: 'The version of WoW your addon supports from the TOC file' 
+runs:
+  using: 'node12'
+  main: 'parse-toc.js'
