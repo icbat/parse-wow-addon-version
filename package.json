@@ -1,6 +1,6 @@
 {
   "name": "parse-wow-addon-version",
-  "version": "1.0.0",
+  "version": "v0.0.1",
   "description": "Extracts the addon version and the supported version from your TOC file and exposes them for other actions to use",
   "main": "parse-toc.js",
   "scripts": {
