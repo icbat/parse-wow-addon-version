@@ -1,0 +1,20 @@
+name: Test
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Run this action
+      id: test_run
+      uses: ./
+      with:
+        tocfile: './test/test.toc'
+    - name: Echo addon version
+      run: echo "${{steps.test_run.outputs.addon_version}}"
+    - name: Echo supported version
+      run: echo "${{steps.test_run.outputs.supported_version}}"
