@@ -18,5 +18,5 @@ jobs:
       run: echo "${{steps.test_run.outputs.addon_version}}"
     - name: Echo supported version
       run: echo "${{steps.test_run.outputs.supported_version}}"
-    - name: Echo supported version
+    - name: Echo supported version (semantic)
       run: echo "${{steps.test_run.outputs.supported_version_semantic}}"

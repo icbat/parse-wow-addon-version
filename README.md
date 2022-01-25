@@ -9,10 +9,14 @@ This action extracts the addon version and the supported version from your TOC f
 
 ## Outputs
 
-### supported_version
-
-The version of WoW your addon supports
-
 ### addon_version
 
 The version of your addon as you have defined it in the TOC
+
+### supported_version
+
+The version of WoW your addon supports in the format Blizzard uses, e.g. `90105`
+
+### supported_version_semantic
+
+The version of WoW your addon supports in semantic version format, e.g. `9.1.5`
