@@ -11,7 +11,7 @@ outputs:
   supported_version:
     description: 'The version of WoW your addon supports from the TOC file' 
 runs:
-  using: 'node12'
+  using: 'node20'
   main: 'parse-toc.js'
 branding:
   icon: chevron-right
